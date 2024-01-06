@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basics/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+  double days = 30;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Material(
-        child: Container(
-            alignment: Alignment.center,
-            child: Text("Welcome to 30 days of code")),
-      ),
-    );
+    return HomePage();
   }
 }
