@@ -10,7 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
-  double days = 30;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

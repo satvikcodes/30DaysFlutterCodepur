@@ -1,5 +1,4 @@
 import "package:flutter/material.dart";
-import "package:flutter_basics/pages/login_page.dart";
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -7,11 +6,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Day 2"),
+        title: Text("@satvikcodes"),
       ),
       body: Center(
         child: Container(
-          child: Text("Hey Satvik !"),
+          child: Text(
+            "Hey Satvik !",
+            style: TextStyle(fontSize: 26),
+          ),
         ),
       ),
     );
