@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutter_basics/widgets/drawer.dart";
 
+// we learn about context in day 11
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
   @override
